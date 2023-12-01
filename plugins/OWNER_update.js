@@ -6,12 +6,12 @@ const handler = async (m, {conn, text}) => {
       conn.reply(m.chat, stdout.toString(), m);
     }
   } catch {
-    const update = execSync('git remote set-url origin https://github.com/BrunoSobrino/TheMystic-Bot-MD.git && git pull');
+    const update = execSync('git remote set-url origin https://github.com/Whats-bot/zloi2.git && git pull');
     await m.reply(update.toString());
   }
 };
-handler.help = ['update'];
+handler.help = ['обновить'];
 handler.tags = ['owner'];
-handler.command = /^update|actualizar$/i;
+handler.command = /^обновить|actualizar$/i;
 handler.rowner = true;
 export default handler;
