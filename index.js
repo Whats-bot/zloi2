@@ -14,11 +14,11 @@ const { name, author } = require(join(__dirname, "./package.json"));
 const { say } = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('BOTWHAITA v5', {
+say('ZloiBoT v2', {
     font: 'block', 
     align: 'center',
     gradient: ['white','white']})
-    say('ediz fab & dan', {
+    say('edit ZloiAdmiN', {
     font: 'block',
     align: 'center',
     gradient: ['white','white']})
