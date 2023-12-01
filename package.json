@@ -14,16 +14,16 @@
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
-    "homepage": "https://github.com/Fabri115/botwhaita",
+    "homepage": "https://github.com/Whats-bot/zloi2",
     "author": {
         "name": "Fabri115"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Fabri115/botwhaita.git"
+        "url": "git+https://github.com/Whats-bot/zloi2.git"
     },
     "bugs": {
-        "url": "https://github.com/Fabri115/botwhaita/issues"
+        "url": "https://github.com/Whats-bot/zloi2/issues"
     },
  "license": "GPL-3.0-or-later",
   "dependencies": {
