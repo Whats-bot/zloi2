@@ -42,9 +42,9 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
     else return;
   }
 };
-handler.help = ['stiker (caption|reply media)', 'stiker <url>', 'stikergif (caption|reply media)', 'stikergif <url>'];
+handler.help = ['стикер (выделить медиа)', 'стикер <ссылка на картинку>', 'стикергиф (выделить медиа)', 'стикергиф <url>'];
 handler.tags = ['sticker'];
-handler.command = /^(stic?ker)?(gif)?(wm)?$/i;
+handler.command = /^(стик?ер)?(gif)?(wm)?$/i;
 export default handler;
 
 const isUrl = (text) => {
